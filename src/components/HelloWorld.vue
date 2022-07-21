@@ -92,7 +92,7 @@
                 <div class="bulb-icon"><img src="" alt="" /></div>
                 <div class="card-heading">delegating</div>
                 <div class="card-para">
-                  Lorem, ipsum dolor sit amet consectetur adipisicin
+                  Lorem, ipsum dolor sit amet Test adipisicin
                 </div>
               </div>
             </div>
