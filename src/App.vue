@@ -1,13 +1,35 @@
 <template>
   <div id="app">
-    <nav>
+    <!-- <nav>
       <router-link to="/">HOME</router-link> |
       <router-link to="/about">ABOUT</router-link> |
       <router-link to="/about">CONTACT</router-link>
-    </nav>
+    </nav> -->
+    <div class="Banner-section">
+      <BannerDetails />
+    </div>
+    <div class="Engenerng-section">
+      <EngineeringDetails />
+    </div>
+    <div class="Leadership-section">
+      <LeaderSkillsDetails />
+    </div>
     <router-view />
   </div>
 </template>
+<script>
+import BannerDetails from "@/components/BannerDetails.vue";
+import EngineeringDetails from "./components/EngineeringDetails.vue";
+import LeaderSkillsDetails from "./components/LeaderSkillsDetails.vue";
+
+export default {
+  components: {
+    BannerDetails,
+    EngineeringDetails,
+    LeaderSkillsDetails,
+  },
+};
+</script>
 
 <style lang="scss">
 #app {
