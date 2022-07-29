@@ -208,14 +208,14 @@
     <div class="bg-color-blue">
       <div class="container">
         <div class="leadership-whole-content">
-          <div class="leadership-heading">Important leadership Skills</div>
+          <div class="leadership-heading">$ 1,255,345</div>
           <div class="leadership-para">
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Animi
             beatae nam in soluta,
           </div>
-          <div class="leadership-para">
+          <!-- <div class="leadership-para">
             perferendis doloremque quo eveniet ipsum cupiditate quidem.
-          </div>
+          </div> -->
           <div div class="row">
             <div class="table-section">
               <div class="col-sm-3" v-for="info in details" :key="info">
