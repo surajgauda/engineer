@@ -60,14 +60,16 @@
             perferendis doloremque quo eveniet ipsum cupiditate quidem.
           </div>
           <div div class="row">
-            <div class="col-sm-3" v-for="info in details" :key="info">
-              <div class="card card-content">
-                <div class="bulb-icon">
-                  <img v-bind:src="info.img" alt="" />
-                </div>
-                <div class="card-heading">{{ info.title }}</div>
-                <div class="card-para">
-                  {{ info.header }}
+            <div class="table-section">
+              <div class="col-sm-3" v-for="info in details" :key="info">
+                <div class="card card-content">
+                  <div class="bulb-icon">
+                    <img v-bind:src="info.img" alt="" />
+                  </div>
+                  <div class="card-heading">{{ info.title }}</div>
+                  <div class="card-para">
+                    {{ info.header }}
+                  </div>
                 </div>
               </div>
             </div>
@@ -200,6 +202,40 @@
     </div>
 
     <!-- content section Ending -->
+
+    <!-- engeering section -->
+
+    <div class="bg-color-blue">
+      <div class="container">
+        <div class="leadership-whole-content">
+          <div class="leadership-heading">Important leadership Skills</div>
+          <div class="leadership-para">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Animi
+            beatae nam in soluta,
+          </div>
+          <div class="leadership-para">
+            perferendis doloremque quo eveniet ipsum cupiditate quidem.
+          </div>
+          <div div class="row">
+            <div class="table-section">
+              <div class="col-sm-3" v-for="info in details" :key="info">
+                <div class="card card-content">
+                  <div class="bulb-icon">
+                    <img v-bind:src="info.img" alt="" />
+                  </div>
+                  <div class="card-heading">{{ info.title }}</div>
+                  <div class="card-para">
+                    {{ info.header }}
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- engeering section Ending -->
     <!-- corosel section  -->
 
     <div class="container">
@@ -436,28 +472,6 @@ export default {
       ],
     };
   },
-};
-</script>
-
-<script>
-/* When the user clicks on the button, 
-toggle between hiding and showing the dropdown content */
-function myFunction() {
-  document.getElementById("myDropdown").classList.toggle("show");
-}
-
-// Close the dropdown if the user clicks outside of it
-window.onclick = function (event) {
-  if (!event.target.matches(".dropbtn")) {
-    var dropdowns = document.getElementsByClassName("dropdown-content");
-    var i;
-    for (i = 0; i < dropdowns.length; i++) {
-      var openDropdown = dropdowns[i];
-      if (openDropdown.classList.contains("show")) {
-        openDropdown.classList.remove("show");
-      }
-    }
-  }
 };
 </script>
 <style>
